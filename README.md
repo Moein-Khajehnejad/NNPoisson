@@ -16,7 +16,7 @@ The paper introducing the details of the model is in Proceedings of **the 39th I
 ## Usage
 
 After cloning/downloading the repository:
-- Add the following folders to your working path: 1)expr, 2)Steinmetz_Model, and 3)Synthetic_Model
+- Add the following folders to your working path: 1) expr, 2) Steinmetz_Model, and 3) Synthetic_Model
 - Make sure you have downloaded the data files for both Steinmetz and Synthetic datasets
 - For each dataset, run 'main.py' stored in the corresponding folder of that model.
 - The outputs will be stored in the '../nongit/' folder created by you in the base directory.
