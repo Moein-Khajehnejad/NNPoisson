@@ -9,7 +9,7 @@ from util.types import Types
 def read_data(time_limit,n_regions):
 ####### Input data:#######
     base_dir = Paths.data_path()
-    with open(base_dir+'data/processed_data/sessions/train.pickle', 'rb') as f:
+    with open(base_dir+'data/steinmetz/train.pickle', 'rb') as f:
         train_dict = pickle.load(f)
         region_index, region_data, all_beh, total_trial_num = train_dict['region_index'], train_dict['region_data'], \
                                                               train_dict['all_beh'], train_dict['total_trial_num']
@@ -64,7 +64,7 @@ def read_data(time_limit,n_regions):
 
     # %%
 
-    with open(base_dir+'/data/processed_data/sessions/test.pickle', 'rb') as f:
+    with open(base_dir+'/data/steinmetz/test.pickle', 'rb') as f:
         test_dict = pickle.load(f)
         test_region_data, test_all_beh, test_total_trial_num = test_dict['test_region_data'], test_dict['test_all_beh'], \
                                                                test_dict[
