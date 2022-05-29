@@ -493,14 +493,14 @@ class DataProcess:
 
     @staticmethod
     def load_from_file():
-        with open(Paths.data_path() + 'data/processed_data/sessions/train.pickle', 'rb') as f:
+        with open(Paths.data_path() + 'data/steinmetz/train.pickle', 'rb') as f:
             train_dict = pickle.load(f)
 
         region_index, region_data, all_beh, total_trial_num = \
             train_dict['region_index'], train_dict['region_data'], \
             train_dict['all_beh'], train_dict['total_trial_num'],
 
-        with open(Paths.data_path() + 'data/processed_data/sessions/test.pickle', 'rb') as f:
+        with open(Paths.data_path() + 'data/steinmetz/test.pickle', 'rb') as f:
             test_dict = pickle.load(f)
 
         test_region_data, test_all_beh, test_total_trial_num = \
