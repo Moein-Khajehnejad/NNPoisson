@@ -3,22 +3,17 @@ import numpy as np
 import pandas as pd
 import tensorflow as tf
 from sys import exit
-from expr.scale.params import GetInps
-from expr.scale_NeuroPixel.data_reader import read_data
+from expr.params import GetInps
+from Steinmetz_Model.data_reader import read_data
 
-# ##  (No RT) For including RT, replace:
+# ##  (No RT):
 stim_shape = (8,)
 GetInps.stim_size = stim_shape[0]
-from expr.scale.losses import get_beh_loses, get_neural_loss, training_loop
+from expr.losses import get_beh_loses, get_neural_loss, training_loop
 
-## With (With RT):
-# stim_shape = (9,)
-# GetInps.stim_size = stim_shape[0] - 1
-# from expr.scale.losses_RT import get_beh_loses, get_neural_loss, training_loop
-###
 
-from expr.scale.misc import beh_to_tf
-from expr.scale.model import build_model
+from expr.misc import beh_to_tf
+from expr.model import build_model
 from util import DLogger
 from util.helper import ensure_dir, fix_seeds
 from util.logger import LogFile
