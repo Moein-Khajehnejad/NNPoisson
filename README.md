@@ -3,6 +3,9 @@
 NNPoisson is an implementation of our end-to-end model which exploits recent developments of flexible, but tractable, neural network point-process models to characterize dependencies between stimuli, actions, and neural data. 
 The paper introducing the details of the model is in Proceedings of **the 39th International Conference on Machine Learning (ICML 2022)** .
 
+"Neural Network Poisson Models for Behavioural and Neural Spike Train Data
+Moein Khajehnejad, Forough Habibollahi, Richard Nock, Ehsan Arabzadeh, Peter Dayan, Amir Dezfouli"
+
 ## Dataset
 1. Steinmetz dataset: We use a public dataset collected using Neuropixel probes in mice performing a visually-guided behavioural task. (Steinmetz, Nicholas A., et al. "Distributed coding of choice, action and engagement across the mouse brain." Nature 576.7786 (2019): 266-273.) 
 2. Synthetic dataset: We also use a synthetic dataset produced from a hierarchical network model with reciprocally connected sensory and integration circuits intended to characterize animal behaviour in a fixed-duration motion discrimination task. (Wimmer, Klaus, et al. "Sensory integration dynamics in a hierarchical network explains choice probabilities in cortical area MT." Nature communications 6.1 (2015): 1-13.)
