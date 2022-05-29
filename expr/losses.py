@@ -1,7 +1,7 @@
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras import backend as K
-from expr.scale.params import GetInps
+from expr.params import GetInps
 from util.types import Types
 
 @tf.function(
