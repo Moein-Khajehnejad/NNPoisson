@@ -39,7 +39,7 @@ six==1.15.0
 tensorboard==2.2.2
 tensorboard-plugin-wit==1.8.0
 tensorflow==2.2.0
-tensorflow-estimator==2.2.0
+tensorflow-estimator==2.5.0
 tensorflow-probability==0.12.1
 termcolor==1.1.0
 typing-extensions==3.7.4.3
