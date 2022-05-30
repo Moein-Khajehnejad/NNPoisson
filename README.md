@@ -15,7 +15,8 @@ Moein Khajehnejad*, Forough Habibollahi*, Richard Nock, Ehsan Arabzadeh, Peter D
 
 <img width="889" alt="model_structure" src="https://user-images.githubusercontent.com/22978025/170870161-ce26589e-9df7-4fb5-898e-159a58b741ec.png">
 
-
+## Python Requirements
+For python package requirements, please refer to the requirement.txt file. 
 
 ## Usage
 
