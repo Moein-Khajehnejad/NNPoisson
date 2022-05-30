@@ -21,8 +21,8 @@ For python package requirements, please refer to the requirement.txt file.
 ## Usage
 
 After cloning/downloading the repository:
-- Add the following folders to your working path: 1) expr, 2) util, 3) Steinmetz_Model, and 4) Synthetic_Model
-- Make sure you have downloaded the data files for both Steinmetz and Synthetic datasets
+- Add the following folders to your working path: 1) expr, 2) util, 3) Steinmetz_Model, and 4) Synthetic_Model.
+- Make sure you have downloaded the data files for both Steinmetz and Synthetic datasets.
 - For each dataset, run 'main.py' stored in the corresponding folder of that model.
 - The outputs will be stored in the '../nongit/' folder created by you in the base directory.
 
