@@ -26,7 +26,7 @@ iterations = 2000
 episodes = 10
 beh_norm_factor = tf.constant(200, Types.TF_FLOAT)
 neuro_norm_factor = tf.constant(200 * n_regions, Types.TF_FLOAT)
-time_limit = tf.constant(0.4, dtype=Types.TF_FLOAT)  # for synthetic data
+time_limit = tf.constant(0.4, dtype=Types.TF_FLOAT)  # for Steinmetz data
 n_batches = int(600 / 60)
 
 def get_configs(n_regions):
