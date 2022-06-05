@@ -33,6 +33,7 @@ After cloning/downloading the repository:
 - _episodes_ : An integer to define the number of runs in each training iteration before the loss function on the test set is calculated.
 - _time_limit_ : A constant tensorflow identifying the maximum trial length in seconds ($W$ parameter in the manuscript).
 - _n_batches_ : An integer to specify the number of batches for each run. 
+
 **Outputs:** The output would be:
 -  A folder containing the ".h5" trained model structure stored in the specified output path after every 20 iterations (as customly specified while defining _n_batches_ in the _main.py_ script).
 -  A "_test.csv_" file with all the single region neural loss values and the total behavioural and neural loss values at the end of each iteration.
